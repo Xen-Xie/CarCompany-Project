@@ -1,1 +1,9 @@
 @import "tailwindcss";
+@theme {
+    --color-primary: #0D0A19;
+    --color-secondary: #9A9EA7;
+}
+
+.linkHover {
+    @apply hover:text-secondary text-[16px] font-stretch-50%;
+}
